@@ -1,8 +1,8 @@
 app_name = "modern_desk"
-app_title = "Modern Desk"
+app_title = "CargoXy"
 app_publisher = "Pratheesh Russell"
 app_description = "A modern UI for frappe desk"
-app_email = "pratheeshrussell@gmail.com"
+app_email = "shofiq5@gmail.com"
 app_license = "mit"
 # required_apps = []
 
