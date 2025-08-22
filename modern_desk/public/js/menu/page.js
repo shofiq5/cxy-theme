@@ -1,3 +1,4 @@
+window.MODERN_DESK_MENU_ENABLED = false;
 frappe.templates["page"] = `
 <div class="page-head flex">
 	<div class="container">
@@ -99,7 +100,9 @@ frappe.ui.Page = class CustomPage extends frappe.ui.Page{
 		// Call parent's make and setup whatever it must
 		super.make();
 		// As an extra add our menu button action
-		this.setup_menupage_view();
+		if (window.MODERN_DESK_MENU_ENABLED !== false) {
+			this.setup_menupage_view();
+		}
 	}
 
 	setup_menupage_view(){
